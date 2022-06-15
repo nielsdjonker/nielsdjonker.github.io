@@ -1,0 +1,36 @@
+p{
+    font-size: 40px;
+    color:red
+}
+
+body{
+    background-color: gray;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.text {
+    color: firebrick;
+}
+
+#tank {
+    width: 300px;
+    height: auto;
+}
+
+@media only screen and (max-width:
+400px){
+    #tank{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:
+300px){
+    #tank{
+        max-width: 300px;
+        width: 100%;
+    }
+}
